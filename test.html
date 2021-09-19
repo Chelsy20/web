@@ -1,12 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Final Assesment</h1>
-</body>
+<html>
+    <head>
+        <title>ChelsyAssignment</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            .container div{
+                height:600px;
+                width:29%;
+                display:inline-block;
+                background-color: orangered;
+            }
+            .container th{
+                border:solid black;
+                height:290px;
+                width:200px;
+            }
+            #b1 th{
+                height:200px;
+                width:200px;
+            }
+            .container th{
+                background-color: lightseagreen;
+                border:none;
+            }
+            @media only screen and (max-width:768px){
+                .container div{
+                    background-color: yellow;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Final Assessment - Chelsy Ratnawat </h1>
+        <div class="container">
+            <div id="box2"style="padding:1em;">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+            <div id="box1" style="padding:1em; margin-right:2%;">
+                <table style="width:100%;height:100%;">
+                    <tr>
+                        <th style="width:100%;height:50%;background-color: lightseagreen;margin-bottom:20%;">1</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                    <th style="width:100%;height:50%;background-color: lightseagreen;">2</th>
+                </tr>
+                </table>
+            </div>
+            <div id="box3" style="padding:1em">
+                <table style="margin-left:3.5%">
+                    <tr>
+                        <th style="width:300px;height:300px;">
+                        <img src="Downloads/daisy_pollen_flower_220533.jpg" style="height:100%;width:100%">
+                        </th>
+                    </tr>
+                    <tr>
+                    <th style="width:300px;height:300px;background-color: lightseagreen;">
+                        <form>
+                            <label for="username">Enter Username:</label><br>
+                            <input type="text" id="username" name="username"><br><br>
+                            <label for="psswd">Enter Password:</label><br>
+                            <input type="password" id="psswd" name="psswd">
+                          </form>
+                    </th>
+                </tr>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>
